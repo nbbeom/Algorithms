@@ -1,4 +1,4 @@
-n,A = input(),{i: 1 for i in map(int , input.split())}
+n,A = input(),{i: 1 for i in map(int , input().split())}
 m = int(input())
 
 # for i in range(m):
@@ -9,4 +9,4 @@ m = int(input())
 
 for i in list(map(int,input().split())):
     print(A.get(i,0))
-    #dict에서 get 을 사용하면 등록이 안된 킹여도 디폴트 값 0 을 출력
+    #dict에서 get 을 사용하면 등록이 안된 키여도 디폴트 값 0 을 출력
